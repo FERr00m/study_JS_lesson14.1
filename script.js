@@ -46,8 +46,8 @@ window.addEventListener('keydown', function(e) {
  } else if (e.code === 'ArrowDown') {
   square.style.bottom = callback(-10, computedStyle.bottom);
  } else if (e.code === 'ArrowRight') {
-  square.style.right = callback(10, computedStyle.right);
+  square.style.left = callback(10, computedStyle.left);
  } else if (e.code === 'ArrowLeft') {
-  square.style.right = callback(-10, computedStyle.right);
+  square.style.left = callback(-10, computedStyle.left);
  } 
 });
